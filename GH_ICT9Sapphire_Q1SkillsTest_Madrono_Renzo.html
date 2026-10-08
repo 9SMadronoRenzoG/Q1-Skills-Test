@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    #wholefieldset, textarea{
+        width: 60%
+    }
+
+    fieldset{
+        border-radius: 13px;
+        border: 2px solid rgb(249, 249, 252);
+        background: #592ebd;
+         padding: 30px;
+         border-radius: 15px;
+        box-shadow: 0 0 30px #c6ace9e9;
+    }
+
+    body {
+    background: linear-gradient(to left, #a593f0, #5059ad);
+    color: rgb(255, 255, 255);
+    }
+    
+    a {
+    color: white;
+   }
+
+   .glow-btn {
+             background: #b36af7;
+             color: rgb(255, 255, 255);
+             border: none;
+             padding: 10px 19px;
+             border-radius: 10px;
+             cursor: pointer;
+             transition: 0.3s;
+        }
+
+        .glow-btn:hover {
+  box-shadow: 0 0 7px #f5f5f5,
+              0 0 12px #a4a4eb,
+              0 0 17px #793dc3;
+  transform: scale(1.05);
+        }
+
+        #group1{
+            display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+        }
+
+
+</style>
+<body style="background-color:rgb(150, 187, 255);">
+ <div>
+    <fieldset id="wholefieldset" style="display: block; margin: auto;">
+
+        <h2 style="text-align: center;"><u>OBMC Robotics Club Application Form</u></h2>
+
+        <h4 style="text-align: center;">Welcome! Please fill out this form to apply for our school's Robotics Club.</h4>
+
+            <hr>
+
+        <p><b>Full Name:</b></p> <input type="text" placeholder="Insert Name Here">
+        <p><b>Email:</b></p> <input type="email" placeholder="Insert Email Here">
+        <p><b>Grade Level:</b></p>
+
+        <select multiple="">
+            <option>Grade 7</option>
+            <option>Grade 8</option>
+            <option>Grade 9</option>
+            <option>Grade 9</option>
+            <option>Grade 10</option>
+        </select>
+
+            <br>
+        
+        <h4>Gender:<h4>
+        <label for="male">Male</label>
+        <input type="radio" name="Gender">
+        <label for="female">Female</label>
+        <input type="radio" name="Gender">
+
+            <hr>
+
+        <h4>What are your skills?</h4>
+        <label for="Coding">Coding</label>
+            <input type="checkbox" name="skills">
+        <label for="Design">Design</label>
+            <input type="checkbox" name="skills">
+        <label for="Electronics">Electronics</label>
+            <input type="checkbox" name="skills">
+
+            <hr>
+
+        <h4 style="text-align: center;">Tell us why you want to join:</h4>
+        <textarea placeholder="Answer Here..." style="display: block; margin: auto;"></textarea>
+
+        <h3>Top Robotics activites we offer:</h3>
+            <ul>- Line Following Robots</ul>
+            <ul>- Obstacle Avoidance Programming</ul>
+            <ul>- Light Following Robot</ul>
+
+            <hr>
+            
+        <h3>Helpful Links</h3>
+        <a href="https://www.mtu.edu/academics/robotics/what/">1 What is Robotics</a>
+        <br>
+        <br>
+        <a href="https://www.nasa.gov/robotics/">2. Nasa & Robotics</a>
+        <br>
+        <br>
+
+        <div id="group1" style="display: block; margin: auto;">
+            <input type="submit" class="glow-btn" style="font-weight: bold; display: block; margin: auto;">
+            
+        </div>
+        
+        <br>
+         <footer>
+        <p style="text-align: center;">© 2026 Robotics CLub Application | Created Renzo G. Madrono 9-Sapphire</p>
+    </footer>
+
+ </div>
+</body>
+</html>
